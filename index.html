@@ -670,7 +670,7 @@
     <header>
         <img src="https://i.imgur.com/XinryYP.jpeg" alt="Logo">
         <h1>🌸 Almuerzos "Chelito"</h1>
-        <p>¡Auténtico Sabor Casero!</p>
+      <p>¡Auténtico Sabor Casero!</p> <br> <p>Más de 140 combinaciones: Menudo, Pozole, Quesadillas, Tacos, Gorditas y más...</p>
     </header>
     <main>
         <div id="cart">
@@ -1888,7 +1888,7 @@
                 paypalForm.innerHTML = `
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                         <input type="hidden" name="cmd" value="_xclick" />
-                        <input type="hidden" name="business" value="las.alitas.del.vampiro1@gmail.com" />
+                        <input type="hidden" name="business" value="carlosvitalm@outlook.com" />
                         <input type="hidden" name="currency_code" value="MXN" />
                         <input type="hidden" name="amount" value="${total.toFixed(2)}" />
                         <input type="hidden" name="item_name" value="${cart.map(item => `${item.name} (${item.quantity})`).join(', ')}" />
