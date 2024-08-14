@@ -763,108 +763,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const products = [
-    { 
-        "name": "Quesadilla de comal (1 o 2 guisados)", 
-        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
-        "price": 24, 
-        "includes": "Quesadilla suave y recién hecha en el comal, con la opción de añadir uno o dos guisados de tu elección."
-    },
-    { 
-        "name": "Quesadilla dorada (1 o 2 guisados)", 
-        "img": "https://i.imgur.com/jg3TeMc.jpeg", 
-        "price": 25, 
-        "includes": "Quesadilla crujiente y dorada, rellena con uno o dos guisados a tu gusto."
-    },
-    { 
-        "name": "Taco sencillo (1 tortilla) 1 o 2 guisados", 
-        "img": "https://i.imgur.com/XinryYP.jpeg", 
-        "price": 20, 
-        "includes": "Taco tradicional con una tortilla, perfecto para combinar con uno o dos guisados."
-    },
-    { 
-        "name": "Taco doble (2 tortillas) 1 o 2 guisados", 
-        "img": "https://i.imgur.com/XinryYP.jpeg", 
-        "price": 22, 
-        "includes": "Taco con doble tortilla para un sabor más robusto, relleno de uno o dos guisados."
-    },
-    { 
-        "name": "Gordita de comal (con queso, sin queso) 1 o 2 guisados", 
-        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
-        "price": 22, 
-        "includes": "Gordita suave y esponjosa del comal, con la opción de añadir queso y uno o dos guisados."
-    },
-    { 
-        "name": "Gordita dorada (con queso, sin queso) 1 o 2 guisados", 
-        "img": "https://i.imgur.com/XinryYP.jpeg", 
-        "price": 25, 
-        "includes": "Gordita dorada y crujiente, con la opción de añadir queso y uno o dos guisados."
-    },
-    { 
-        "name": "Plato de guisado chico + 2 tortillas de comal (3 guisados)", 
-        "img": "https://i.imgur.com/XinryYP.jpeg", 
-        "price": 35, 
-        "includes": "Un plato pequeño con la combinación perfecta de tres guisados a tu elección, acompañado de dos tortillas de comal."
-    },
-    { 
-        "name": "Plato de guisado grande + 3 tortillas de comal (4 guisados)", 
-        "img": "https://i.imgur.com/XinryYP.jpeg", 
-        "price": 65, 
-        "includes": "Un plato grande con cuatro guisados de tu preferencia, acompañado de tres tortillas de comal."
-    },
-    { 
-        "name": "Menudo chico (Disponible sábado, domingo y lunes)", 
-        "img": "https://i.imgur.com/XinryYP.jpeg", 
-        "price": 70, 
-        "includes": "Un tazón pequeño de menudo, perfecto para una comida reconfortante."
-    },
-    { 
-        "name": "Menudo mediano (Disponible sábado, domingo y lunes)", 
-        "img": "https://i.imgur.com/XinryYP.jpeg", 
-        "price": 75, 
-        "includes": "Un tazón mediano de menudo, ideal para disfrutar un fin de semana."
-    },
-    { 
-        "name": "Menudo grande (Disponible sábado, domingo y lunes)", 
-        "img": "https://i.imgur.com/XinryYP.jpeg", 
-        "price": 80, 
-        "includes": "Un tazón grande de menudo, para quienes quieren un festín de sabores."
-    },
-    { 
-        "name": "Menudo Termo 1 litro (Disponible sábado, domingo y lunes)", 
-        "img": "https://i.imgur.com/XinryYP.jpeg", 
-        "price": 100, 
-        "includes": "Un litro de menudo en termo, disponible con surtido, panza, pata, callo o bofe."
-    },
-    { 
-        "name": "Pozole chico (Viernes de pozole)", 
-        "img": "https://i.imgur.com/2bZVceu.jpeg", 
-        "price": 50, 
-        "includes": "Un tazón pequeño de pozole, perfecto para iniciar tu viernes con un toque de sabor tradicional."
-    },
-    { 
-        "name": "Pozole mediano (Viernes de pozole)", 
-        "img": "https://i.imgur.com/2bZVceu.jpeg", 
-        "price": 55, 
-        "includes": "Un tazón mediano de pozole, ideal para una comida reconfortante el viernes."
-    },
-    { 
-        "name": "Pozole grande (Viernes de pozole)", 
-        "img": "https://i.imgur.com/2bZVceu.jpeg", 
-        "price": 60, 
-        "includes": "Un tazón grande de pozole, para quienes desean disfrutar de un buen festín."
-    },
-    { 
-        "name": "Pozole Termo 1 litro (Viernes de pozole)", 
-        "img": "https://i.imgur.com/2bZVceu.jpeg", 
-        "price": 80, 
-        "includes": "Un litro de pozole, ideal para compartir o para llevar contigo y disfrutar más tarde."
-    },
-    { 
-        "name": "Guisados", 
-        "img": "https://i.imgur.com/XinryYP.jpeg", 
-        "price": 0, 
-        "includes": "Variedad de guisados: prensado, duro, bisteck, chorizo, papas, nopales, rajas, garbanzos, rellena, champiñones, carne de puerco, frijoles, picadillo, desebrada, huevo, costilla, pollo con papas."
-    },
+    // Complementos y Bebidas
     { 
         "name": "Tortilla extra", 
         "img": "https://i.imgur.com/XinryYP.jpeg", 
@@ -888,8 +787,983 @@
         "img": "https://i.imgur.com/XinryYP.jpeg", 
         "price": 25, 
         "includes": "Agua fresca del sabor del día, servida en un termo de un litro."
+    },
+
+    // Menudo (Disponible sábado, domingo y lunes)
+    { 
+        "name": "Menudo chico Surtido (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 70, 
+        "includes": "Un tazón pequeño de menudo surtido, perfecto para una comida reconfortante. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo chico Panza (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 70, 
+        "includes": "Un tazón pequeño de menudo con panza, perfecto para una comida reconfortante. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo chico Pata (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 70, 
+        "includes": "Un tazón pequeño de menudo con pata, perfecto para una comida reconfortante. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo chico Callo (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 70, 
+        "includes": "Un tazón pequeño de menudo con callo, perfecto para una comida reconfortante. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo chico Bofe (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 70, 
+        "includes": "Un tazón pequeño de menudo con bofe, perfecto para una comida reconfortante. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo mediano Surtido (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 75, 
+        "includes": "Un tazón mediano de menudo surtido, ideal para disfrutar un fin de semana. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo mediano Panza (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 75, 
+        "includes": "Un tazón mediano de menudo con panza, ideal para disfrutar un fin de semana. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo mediano Pata (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 75, 
+        "includes": "Un tazón mediano de menudo con pata, ideal para disfrutar un fin de semana. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo mediano Callo (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 75, 
+        "includes": "Un tazón mediano de menudo con callo, ideal para disfrutar un fin de semana. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo mediano Bofe (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 75, 
+        "includes": "Un tazón mediano de menudo con bofe, ideal para disfrutar un fin de semana. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo grande Surtido (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 80, 
+        "includes": "Un tazón grande de menudo surtido, para quienes quieren un festín de sabores. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo grande Panza (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 80, 
+        "includes": "Un tazón grande de menudo con panza, para quienes quieren un festín de sabores. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo grande Pata (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 80, 
+        "includes": "Un tazón grande de menudo con pata, para quienes quieren un festín de sabores. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo grande Callo (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 80, 
+        "includes": "Un tazón grande de menudo con callo, para quienes quieren un festín de sabores. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo grande Bofe (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 80, 
+        "includes": "Un tazón grande de menudo con bofe, para quienes quieren un festín de sabores. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo Termo 1 litro Surtido (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 100, 
+        "includes": "Un litro de menudo surtido en termo, perfecto para llevar y disfrutar. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo Termo 1 litro Panza (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 100, 
+        "includes": "Un litro de menudo con panza en termo, perfecto para llevar y disfrutar. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo Termo 1 litro Pata (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 100, 
+        "includes": "Un litro de menudo con pata en termo, perfecto para llevar y disfrutar. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo Termo 1 litro Callo (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 100, 
+        "includes": "Un litro de menudo con callo en termo, perfecto para llevar y disfrutar. Disponible los sábados, domingos y lunes."
+    },
+    { 
+        "name": "Menudo Termo 1 litro Bofe (sábado, domingo y lunes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 100, 
+        "includes": "Un litro de menudo con bofe en termo, perfecto para llevar y disfrutar. Disponible los sábados, domingos y lunes."
+    },
+
+    // Viernes de Pozole
+    { 
+        "name": "Pozole chico (Viernes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 50, 
+        "includes": "Un tazón pequeño de pozole, perfecto para una comida reconfortante. Disponible solo los viernes."
+    },
+    { 
+        "name": "Pozole mediano (Viernes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 55, 
+        "includes": "Un tazón mediano de pozole, ideal para disfrutar en cualquier momento. Disponible solo los viernes."
+    },
+    { 
+        "name": "Pozole grande (Viernes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 60, 
+        "includes": "Un tazón grande de pozole, para aquellos que buscan una comida abundante. Disponible solo los viernes."
+    },
+    { 
+        "name": "Pozole Termo 1 litro (Viernes)", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 80, 
+        "includes": "Un litro de pozole en termo, perfecto para compartir o llevar. Disponible solo los viernes."
+    },
+
+    // Quesadillas
+    { 
+        "name": "Quesadilla de comal con Prensado", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con prensado, una deliciosa opción mexicana."
+    },
+    { 
+        "name": "Quesadilla de comal con Duro", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con duro, llena de sabor tradicional."
+    },
+    { 
+        "name": "Quesadilla de comal con Bisteck", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con bisteck, una opción jugosa y deliciosa."
+    },
+    { 
+        "name": "Quesadilla de comal con Chorizo", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con chorizo, ideal para los amantes del sabor intenso."
+    },
+    { 
+        "name": "Quesadilla de comal con Papas", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con papas, una combinación simple y deliciosa."
+    },
+    { 
+        "name": "Quesadilla de comal con Nopales", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con nopales, perfecta para un toque fresco y saludable."
+    },
+    { 
+        "name": "Quesadilla de comal con Rajas", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con rajas, ideal para un toque de sabor y picante."
+    },
+    { 
+        "name": "Quesadilla de comal con Garbanzos", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con garbanzos, una opción única y deliciosa."
+    },
+    { 
+        "name": "Quesadilla de comal con Rellena", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con rellena, llena de sabor auténtico."
+    },
+    { 
+        "name": "Quesadilla de comal con Champiñones", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con champiñones, una opción vegetariana deliciosa."
+    },
+    { 
+        "name": "Quesadilla de comal con Carne de puerco", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con carne de puerco, una combinación sabrosa."
+    },
+    { 
+        "name": "Quesadilla de comal con Frijoles", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con frijoles, una opción sencilla y clásica."
+    },
+    { 
+        "name": "Quesadilla de comal con Picadillo", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con picadillo, una deliciosa mezcla de carne y vegetales."
+    },
+    { 
+        "name": "Quesadilla de comal con Desebrada", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con desebrada, perfecta para quienes buscan un sabor tradicional."
+    },
+    { 
+        "name": "Quesadilla de comal con Huevo", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con huevo, una opción simple pero deliciosa."
+    },
+    { 
+        "name": "Quesadilla de comal con Costilla", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con costilla, para un sabor fuerte y sabroso."
+    },
+    { 
+        "name": "Quesadilla de comal con Pollo con papas", 
+        "img": "https://i.imgur.com/jJqJiHB.jpeg", 
+        "price": 24, 
+        "includes": "Quesadilla suave de comal con pollo y papas, una opción sustanciosa y deliciosa."
+    },
+    { 
+        "name": "Quesadilla dorada con Prensado", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con prensado, crujiente y llena de sabor."
+    },
+    { 
+        "name": "Quesadilla dorada con Duro", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con duro, una opción crujiente y deliciosa."
+    },
+    { 
+        "name": "Quesadilla dorada con Bisteck", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con bisteck, crujiente y jugosa."
+    },
+    { 
+        "name": "Quesadilla dorada con Chorizo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con chorizo, una opción intensa y deliciosa."
+    },
+    { 
+        "name": "Quesadilla dorada con Papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con papas, crujiente y sustanciosa."
+    },
+    { 
+        "name": "Quesadilla dorada con Nopales", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con nopales, crujiente y saludable."
+    },
+    { 
+        "name": "Quesadilla dorada con Rajas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con rajas, perfecta para un toque picante."
+    },
+    { 
+        "name": "Quesadilla dorada con Garbanzos", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con garbanzos, una opción crujiente y única."
+    },
+    { 
+        "name": "Quesadilla dorada con Rellena", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con rellena, una explosión de sabor crujiente."
+    },
+    { 
+        "name": "Quesadilla dorada con Champiñones", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con champiñones, una opción vegetariana crujiente."
+    },
+    { 
+        "name": "Quesadilla dorada con Carne de puerco", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con carne de puerco, una combinación crujiente y deliciosa."
+    },
+    { 
+        "name": "Quesadilla dorada con Frijoles", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con frijoles, una opción clásica y crujiente."
+    },
+    { 
+        "name": "Quesadilla dorada con Picadillo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con picadillo, crujiente y llena de sabor."
+    },
+    { 
+        "name": "Quesadilla dorada con Desebrada", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con desebrada, crujiente y auténtica."
+    },
+    { 
+        "name": "Quesadilla dorada con Huevo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con huevo, crujiente y deliciosa."
+    },
+    { 
+        "name": "Quesadilla dorada con Costilla", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con costilla, crujiente y llena de sabor."
+    },
+    { 
+        "name": "Quesadilla dorada con Pollo con papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Quesadilla dorada con pollo y papas, una opción crujiente y sustanciosa."
+    },
+
+    // Tacos
+    { 
+        "name": "Taco sencillo con Prensado", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con prensado, una opción sabrosa y auténtica."
+    },
+    { 
+        "name": "Taco sencillo con Duro", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con duro, lleno de sabor tradicional."
+    },
+    { 
+        "name": "Taco sencillo con Bisteck", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con bisteck, jugoso y delicioso."
+    },
+    { 
+        "name": "Taco sencillo con Chorizo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con chorizo, ideal para los amantes del sabor intenso."
+    },
+    { 
+        "name": "Taco sencillo con Papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con papas, una opción simple y deliciosa."
+    },
+    { 
+        "name": "Taco sencillo con Nopales", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con nopales, una opción fresca y saludable."
+    },
+    { 
+        "name": "Taco sencillo con Rajas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con rajas, un toque de sabor picante."
+    },
+    { 
+        "name": "Taco sencillo con Garbanzos", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con garbanzos, una opción única y deliciosa."
+    },
+    { 
+        "name": "Taco sencillo con Rellena", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con rellena, lleno de sabor auténtico."
+    },
+    { 
+        "name": "Taco sencillo con Champiñones", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con champiñones, una opción vegetariana deliciosa."
+    },
+    { 
+        "name": "Taco sencillo con Carne de puerco", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con carne de puerco, sabroso y tradicional."
+    },
+    { 
+        "name": "Taco sencillo con Frijoles", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con frijoles, una opción sencilla y clásica."
+    },
+    { 
+        "name": "Taco sencillo con Picadillo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con picadillo, una mezcla sabrosa de carne y vegetales."
+    },
+    { 
+        "name": "Taco sencillo con Desebrada", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con desebrada, una opción sabrosa y tradicional."
+    },
+    { 
+        "name": "Taco sencillo con Huevo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con huevo, simple pero delicioso."
+    },
+    { 
+        "name": "Taco sencillo con Costilla", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con costilla, una opción fuerte y sabrosa."
+    },
+    { 
+        "name": "Taco sencillo con Pollo con papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 20, 
+        "includes": "Taco sencillo con pollo y papas, una combinación sustanciosa."
+    },
+    { 
+        "name": "Taco doble con Prensado", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con prensado, doble sabor y auténtico."
+    },
+    { 
+        "name": "Taco doble con Duro", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con duro, doble sabor y tradicional."
+    },
+    { 
+        "name": "Taco doble con Bisteck", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con bisteck, jugoso y delicioso."
+    },
+    { 
+        "name": "Taco doble con Chorizo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con chorizo, doble intensidad de sabor."
+    },
+    { 
+        "name": "Taco doble con Papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con papas, sustancioso y delicioso."
+    },
+    { 
+        "name": "Taco doble con Nopales", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con nopales, doble frescura y sabor."
+    },
+    { 
+        "name": "Taco doble con Rajas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con rajas, doble picante y sabor."
+    },
+    { 
+        "name": "Taco doble con Garbanzos", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con garbanzos, doble sabor único."
+    },
+    { 
+        "name": "Taco doble con Rellena", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con rellena, doble sabor auténtico."
+    },
+    { 
+        "name": "Taco doble con Champiñones", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con champiñones, una opción vegetariana doblemente deliciosa."
+    },
+    { 
+        "name": "Taco doble con Carne de puerco", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con carne de puerco, una combinación doblemente sabrosa."
+    },
+    { 
+        "name": "Taco doble con Frijoles", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con frijoles, doble sabor clásico."
+    },
+    { 
+        "name": "Taco doble con Picadillo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con picadillo, doble mezcla sabrosa de carne y vegetales."
+    },
+    { 
+        "name": "Taco doble con Desebrada", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con desebrada, doble sabor tradicional."
+    },
+    { 
+        "name": "Taco doble con Huevo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con huevo, doble sabor simple y delicioso."
+    },
+    { 
+        "name": "Taco doble con Costilla", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con costilla, doblemente sabroso y fuerte."
+    },
+    { 
+        "name": "Taco doble con Pollo con papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 22, 
+        "includes": "Taco doble con pollo y papas, doblemente sustancioso y delicioso."
+    },
+
+    // Gorditas
+    { 
+        "name": "Gordita de comal con Prensado", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con prensado, suave y llena de sabor."
+    },
+    { 
+        "name": "Gordita de comal con Duro", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con duro, una opción suave y sabrosa."
+    },
+    { 
+        "name": "Gordita de comal con Bisteck", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con bisteck, suave y jugosa."
+    },
+    { 
+        "name": "Gordita de comal con Chorizo", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con chorizo, llena de sabor intenso."
+    },
+    { 
+        "name": "Gordita de comal con Papas", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con papas, suave y sustanciosa."
+    },
+    { 
+        "name": "Gordita de comal con Nopales", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con nopales, suave y saludable."
+    },
+    { 
+        "name": "Gordita de comal con Rajas", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con rajas, suave y picante."
+    },
+    { 
+        "name": "Gordita de comal con Garbanzos", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con garbanzos, suave y deliciosa."
+    },
+    { 
+        "name": "Gordita de comal con Rellena", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con rellena, llena de sabor auténtico."
+    },
+    { 
+        "name": "Gordita de comal con Champiñones", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con champiñones, una opción vegetariana deliciosa."
+    },
+    { 
+        "name": "Gordita de comal con Carne de puerco", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con carne de puerco, suave y sabrosa."
+    },
+    { 
+        "name": "Gordita de comal con Frijoles", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con frijoles, suave y clásica."
+    },
+    { 
+        "name": "Gordita de comal con Picadillo", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con picadillo, suave y deliciosa mezcla de carne y vegetales."
+    },
+    { 
+        "name": "Gordita de comal con Desebrada", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con desebrada, suave y llena de sabor tradicional."
+    },
+    { 
+        "name": "Gordita de comal con Huevo", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con huevo, simple y deliciosa."
+    },
+    { 
+        "name": "Gordita de comal con Costilla", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con costilla, suave y sabrosa."
+    },
+    { 
+        "name": "Gordita de comal con Pollo con papas", 
+        "img": "https://i.imgur.com/mIHB8BQ.jpeg", 
+        "price": 22, 
+        "includes": "Gordita de comal con pollo y papas, suave y sustanciosa."
+    },
+    { 
+        "name": "Gordita dorada con Prensado", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con prensado, crujiente y llena de sabor."
+    },
+    { 
+        "name": "Gordita dorada con Duro", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con duro, crujiente y sabrosa."
+    },
+    { 
+        "name": "Gordita dorada con Bisteck", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con bisteck, crujiente y jugosa."
+    },
+    { 
+        "name": "Gordita dorada con Chorizo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con chorizo, crujiente y llena de sabor intenso."
+    },
+    { 
+        "name": "Gordita dorada con Papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con papas, crujiente y sustanciosa."
+    },
+    { 
+        "name": "Gordita dorada con Nopales", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con nopales, crujiente y saludable."
+    },
+    { 
+        "name": "Gordita dorada con Rajas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con rajas, crujiente y picante."
+    },
+    { 
+        "name": "Gordita dorada con Garbanzos", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con garbanzos, crujiente y deliciosa."
+    },
+    { 
+        "name": "Gordita dorada con Rellena", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con rellena, crujiente y llena de sabor auténtico."
+    },
+    { 
+        "name": "Gordita dorada con Champiñones", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con champiñones, una opción vegetariana crujiente."
+    },
+    { 
+        "name": "Gordita dorada con Carne de puerco", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con carne de puerco, crujiente y sabrosa."
+    },
+    { 
+        "name": "Gordita dorada con Frijoles", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con frijoles, crujiente y clásica."
+    },
+    { 
+        "name": "Gordita dorada con Picadillo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con picadillo, crujiente y deliciosa mezcla de carne y vegetales."
+    },
+    { 
+        "name": "Gordita dorada con Desebrada", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con desebrada, crujiente y llena de sabor tradicional."
+    },
+    { 
+        "name": "Gordita dorada con Huevo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con huevo, crujiente y deliciosa."
+    },
+    { 
+        "name": "Gordita dorada con Costilla", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con costilla, crujiente y sabrosa."
+    },
+    { 
+        "name": "Gordita dorada con Pollo con papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 25, 
+        "includes": "Gordita dorada con pollo y papas, crujiente y sustanciosa."
+    },
+
+    // Platos de Guisado
+    { 
+        "name": "Plato de guisado chico con Prensado", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con prensado, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Duro", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con duro, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Bisteck", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con bisteck, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Chorizo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con chorizo, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con papas, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Nopales", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con nopales, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Rajas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con rajas, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Garbanzos", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con garbanzos, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Rellena", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con rellena, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Champiñones", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con champiñones, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Carne de puerco", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con carne de puerco, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Frijoles", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con frijoles, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Picadillo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con picadillo, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Desebrada", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con desebrada, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Huevo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con huevo, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Costilla", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con costilla, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado chico con Pollo con papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 35, 
+        "includes": "Plato de guisado chico con pollo y papas, acompañado de dos tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Prensado", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con prensado, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Duro", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con duro, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Bisteck", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con bisteck, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Chorizo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con chorizo, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con papas, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Nopales", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con nopales, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Rajas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con rajas, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Garbanzos", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con garbanzos, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Rellena", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con rellena, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Champiñones", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con champiñones, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Carne de puerco", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con carne de puerco, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Frijoles", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con frijoles, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Picadillo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con picadillo, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Desebrada", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con desebrada, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Huevo", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con huevo, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Costilla", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con costilla, acompañado de tres tortillas de comal."
+    },
+    { 
+        "name": "Plato de guisado grande con Pollo con papas", 
+        "img": "https://i.imgur.com/XinryYP.jpeg", 
+        "price": 65, 
+        "includes": "Plato de guisado grande con pollo y papas, acompañado de tres tortillas de comal."
     }
 ]
+
+
+
 
             const cart = [];
             let total = 0;
@@ -1014,7 +1888,7 @@
                 paypalForm.innerHTML = `
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                         <input type="hidden" name="cmd" value="_xclick" />
-                        <input type="hidden" name="business" value="gascagtz@gmail.com" />
+                        <input type="hidden" name="business" value="las.alitas.del.vampiro1@gmail.com" />
                         <input type="hidden" name="currency_code" value="MXN" />
                         <input type="hidden" name="amount" value="${total.toFixed(2)}" />
                         <input type="hidden" name="item_name" value="${cart.map(item => `${item.name} (${item.quantity})`).join(', ')}" />
@@ -1027,9 +1901,9 @@
                 const whatsappBtn = document.getElementById('whatsapp-btn');
                 const selectedPaymentMethod = getSelectedPaymentMethod();
                 const selectedDeliveryMethod = getSelectedDeliveryMethod();
-                const message = `Orden para Almuerzos Chelito:\n${cart.map(item => `${item.name} (${item.quantity}) - $${item.price} c/u`).join('\n')}\nTotal: $${total.toFixed(2)}\nMétodo de pago: ${selectedPaymentMethod}\nMétodo de entrega: ${selectedDeliveryMethod}`;
+                const message = `Orden para Las Alitas Del Vampiro:\n${cart.map(item => `${item.name} (${item.quantity}) - $${item.price} c/u`).join('\n')}\nTotal: $${total.toFixed(2)}\nMétodo de pago: ${selectedPaymentMethod}\nMétodo de entrega: ${selectedDeliveryMethod}`;
                 const encodedMessage = encodeURIComponent(message);
-                whatsappBtn.href = `https://wa.me/524773006051?text=${encodedMessage}`;
+                whatsappBtn.href = `https://wa.me/526313400977?text=${encodedMessage}`;
                 whatsappBtn.style.display = total > 0 ? 'inline-flex' : 'none';
             }
 
