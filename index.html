@@ -1014,7 +1014,7 @@
                 paypalForm.innerHTML = `
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                         <input type="hidden" name="cmd" value="_xclick" />
-                        <input type="hidden" name="business" value="las.alitas.del.vampiro1@gmail.com" />
+                        <input type="hidden" name="business" value="gascagtz@gmail.com" />
                         <input type="hidden" name="currency_code" value="MXN" />
                         <input type="hidden" name="amount" value="${total.toFixed(2)}" />
                         <input type="hidden" name="item_name" value="${cart.map(item => `${item.name} (${item.quantity})`).join(', ')}" />
@@ -1029,7 +1029,7 @@
                 const selectedDeliveryMethod = getSelectedDeliveryMethod();
                 const message = `Orden para Las Alitas Del Vampiro:\n${cart.map(item => `${item.name} (${item.quantity}) - $${item.price} c/u`).join('\n')}\nTotal: $${total.toFixed(2)}\nMétodo de pago: ${selectedPaymentMethod}\nMétodo de entrega: ${selectedDeliveryMethod}`;
                 const encodedMessage = encodeURIComponent(message);
-                whatsappBtn.href = `https://wa.me/526313400977?text=${encodedMessage}`;
+                whatsappBtn.href = `https://wa.me/524773006051?text=${encodedMessage}`;
                 whatsappBtn.style.display = total > 0 ? 'inline-flex' : 'none';
             }
 
