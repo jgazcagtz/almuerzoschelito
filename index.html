@@ -1903,7 +1903,7 @@
                 const selectedDeliveryMethod = getSelectedDeliveryMethod();
                 const message = `Orden para Almuerzos Chelito:\n${cart.map(item => `${item.name} (${item.quantity}) - $${item.price} c/u`).join('\n')}\nTotal: $${total.toFixed(2)}\nMétodo de pago: ${selectedPaymentMethod}\nMétodo de entrega: ${selectedDeliveryMethod}`;
                 const encodedMessage = encodeURIComponent(message);
-                whatsappBtn.href = `https://wa.me/526313400977?text=${encodedMessage}`;
+                whatsappBtn.href = `https://wa.me/524773006051?text=${encodedMessage}`;
                 whatsappBtn.style.display = total > 0 ? 'inline-flex' : 'none';
             }
 
